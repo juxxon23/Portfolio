@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/icons/galaxy.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Portfolio</title>
+  </head>
+  <body onload="setColors()">
+    <header class="header">
+        <div class="switches">
+            <div id="toggle-theme" class="toggle-theme">
+                <span id="toggle-icon" class="material-icons toggle-theme__icon">light_mode</span>
+                <p id="toggle-text" class="toggle-theme__text">Light Mode</p>
+            </div>
+        </div>
+        <div id="toggle-colors" class="colors">
+            <div data-color="hsl(214, 84%, 56%)" id="blue-color" class="colors__item colors__item--blue"></div>
+            <div data-color="hsl(276, 84%, 56%)" id="purple-color" class="colors__item colors__item--purple"></div>
+            <div data-color="hsl(150, 84%, 56%)" id="green-color" class="colors__item colors__item--green"></div>
+            <div data-color="hsl(46, 84%, 56%)" id="yellow-color" class="colors__item colors__item--yellow"></div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="column column--left">
+            <!-- PROFILE CARD -->
+            <article class="card card--profile">
+                <div class="card__image-container">
+                    <img src="assets/images/profile.jpeg" alt="dev profile">
+                </div>
+                <div class="card__header">
+                    <h2 class="card__title no-margin">Juan Pablo Henao Giraldo</h2>
+                    <p class="card__subtitle no-margin">Web and Android Developer</p>
+                </div>
+                <div class="card__body">
+                    <div class="card__link">
+                        <span class="material-icons icon">email</span>
+                        <a href="mailto:grimpoteuthis@protonmail.com">
+                            grimpoteuthis@protonmail.com
+                        </a>
+                    </div>
+                    <div class="card__link">
+                        <span class="material-icons icon">phone</span>
+                        <a href="tel:+573208208064">(+57) 320 820 8064</a>
+                    </div>
+                    <p class="card__text">Estudiante de licenciatura en matemáticas, entusiasta de la programación, la lógica y las artes, con una clara intención de aprender y compartir mi experiencia con el mundo.<br/>
+                        <em>El progreso está en nuestras manos.</em>
+                    </p>
+                </div>
+            </article>
+            <!-- HOBBIES -->
+            <article class="card card--hobbies">
+                <h2 class="card__title">Hobbies</h2>
+                <!-- HOBBIE 1 -->
+                <div class="card__image-container">
+                    <img src="assets/images/paint.jpg" alt="draw and paint">
+                </div>
+                <h3 class="hobbie__title">Draw/Paint</h3>
+                <p class="card__text">Este pasatiempo me ha acompañado desde la infancia, representa mi principal medio de expresión y equilibrio. Me inclino más hacia el arte surrealista y figurativo, el juego de la lógica y la imaginación estimulan mi lado más creativo.</p>
+                <!-- HOBBIE 2 -->
+                <div class="card__image-container">
+                    <img src="assets/images/Reading.jpg" alt="reading">
+                </div>
+                <h3 class="hobbie__title">Reading</h3>
+                <p class="card__text">La lectura es el alimento de la mente, ya sean libros de divulgación científica, cuentos o novelas, un libro es un compañero que no puede faltar. Uno de mis géneros favoritos es el realismo mágico junto a su gran representante <em>Gabriel Garcia Marquez.</em></p>
+                <!-- HOBBIE 3 -->
+                <div class="card__image-container">
+                    <img src="assets/images/nature.jpg" alt="walk in nature">
+                </div>
+                <h3 class="hobbie__title">Walk in nature</h3>
+                <p class="card__text">Es el momento ideal para que el primate interno se reencuentre con su hábitat primigenio, además es satisfactorio y enriquecedor el contemplar la belleza integral de la naturaleza, en otras palabras, la naturaleza es la fuente primaria de inspiración.</p>
+            </article>
+        </section>
+        <section class="column column--right">
+            <!-- SKILLS CARD -->
+            <article class="card">
+                <h2 class="card__title no-margin">Front End</h2>
+                <div class="skills">
+                    <div class="skills__item">
+                        <p class="skills__tech">HTML</p>
+                        <p class="skills__bar skills__bar--70"></p>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">CSS</p>
+                        <p class="skills__bar skills__bar--40"></p>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">JavaScript</p>
+                        <p class="skills__bar skills__bar--90"></p>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">TypeScript</p>
+                        <p class="skills__bar skills__bar--90"></p>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Angular</p>
+                        <p class="skills__bar skills__bar--90"></p>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">React</p>
+                        <p class="skills__bar skills__bar--90"></p>
+                    </div>
+                </div>
+            </article>
+            <article class="card">
+                <h2 class="card__title no-margin">Back End</h2>
+                <div class="skills">              
+                    <div class="skills__item">
+                        <p class="skills__tech">Python</p>
+                        <p class="skills__bar skills__bar--70"></p>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Flask</p>
+                        <p class="skills__bar skills__bar--40"></p>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Node.js</p>
+                        <p class="skills__bar skills__bar--90"></p>
+                    </div>
+                </div>
+                <h2 class="card__title no-margin">Android</h2>          
+                <div class="skills">
+                    <div class="skills__item">
+                        <p class="skills__tech">Kotlin</p>
+                        <p class="skills__bar skills__bar--70"></p>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Java</p>
+                        <p class="skills__bar skills__bar--70"></p>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Firebase</p>
+                        <p class="skills__bar skills__bar--70"></p>
+                    </div>
+                </div>
+            </article>
+            <article class="card">
+                <h2 class="card__title no-margin">DB</h2>          
+                <div class="skills">
+                    <div class="skills__item">
+                        <p class="skills__tech">MySQL</p>
+                        <p class="skills__bar skills__bar--70"></p>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">MongoDB</p>
+                        <p class="skills__bar skills__bar--70"></p>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Cloudant</p>
+                        <p class="skills__bar skills__bar--70"></p>
+                    </div>
+                </div>
+                <h2 class="card__title no-margin">EXTRAS</h2>          
+                <div class="skills">
+                    <div class="skills__item">
+                        <p class="skills__tech">Unity</p>
+                        <p class="skills__bar skills__bar--70"></p>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Jekyll</p>
+                        <p class="skills__bar skills__bar--70"></p>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Sonic PI</p>
+                        <p class="skills__bar skills__bar--70"></p>
+                    </div>
+                </div>
+            </article>
+            <!-- PROJECTS -->
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/todoapp.png" alt="ToDo app" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#Android</span>
+                        <span class="project__tag">#Kotlin</span>
+                        <span class="project__tag">#SQLite</span>
+                    </div>
+                    <h2 class="card__title">ToDo app</h2>
+                    <p class="card__text">Aplicación de tareas</p>
+                    <p class="card__text">Android app para la gestión de tareas personales, listas creadas con RecyclerView.</p>
+                    <div class="buttons">
+                        <a href="https://github.com/juxxon23/TODO-app.git" class="button button--ghost" target="_blank">Code</a>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/calculatorapp.png" alt="Calculator app" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#Android</span>
+                        <span class="project__tag">#Kotlin</span>
+                    </div>
+                    <h2 class="card__title">Calculator app</h2>
+                    <p class="card__text">Calculadora basica</p>
+                    <div class="buttons">
+                        <a href="https://github.com/juxxon23/Calculator.git" class="button button--ghost" target="_blank">Code</a>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/loginapp.jpg" alt="Login Firebase" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#Android</span>
+                        <span class="project__tag">#Kotlin</span>
+                        <span class="project__tag">#Firebase</span>
+                    </div>
+                    <h2 class="card__title">Sign Up and Login</h2>
+                    <p class="card__text">Utiliza el servicio de autenticación Firebase.</p>
+                    <div class="buttons">
+                        <a href="https://github.com/juxxon23/Login.git" class="button button--ghost" target="_blank">Code</a>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/timer.png" alt="Timer app" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#Android</span>
+                        <span class="project__tag">#Kotlin</span>
+                    </div>
+                    <h2 class="card__title">Timer app</h2>
+                    <p class="card__text">Esta aplicación utiliza un servicio de cronómetro para continuar su ejecución en segundo plano.</p>
+                    <div class="buttons">
+                        <a href="https://github.com/juxxon23/Timer.git" class="button button--ghost" target="_blank">Code</a>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/grimpo_blog.jpg" alt="grimpo blog" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#Jekyll</span>
+                    </div>
+                    <h2 class="card__title">Grimpo</h2>
+                    <p class="card__text">Blog personal</p>
+                    <p class="card__text">Espacio para compartir mi arte, aprendizaje y reflexiones varias.</p>
+                    <div class="buttons">
+                        <a href="https://grimpoteuthis-314.github.io/Grimpo/" class="button button--primary" target="_blank">Demo</a>
+                        <a href="https://github.com/Grimpoteuthis-314/Grimpo.git" class="button button--ghost" target="_blank">Code</a>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/saclogodark.png" alt="SAC front end" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#HTML</span>
+                        <span class="project__tag">#CSS</span>
+                        <span class="project__tag">#TypeScript</span>
+                        <span class="project__tag">#Angular</span>
+                    </div>
+                    <h2 class="card__title">SAC Front End</h2>
+                    <p class="card__text">Gestor de actas de reunión</p>
+                    <p class="card__text">Front End del proyecto SAC para la creación y gestión de actas dirigidas a dar un seguimiento de tu reunión.</p>
+                    <div class="buttons">
+                        <a href="https://sac-fdev.herokuapp.com/" class="button button--primary" target="_blank">Demo</a>
+                        <a href="https://github.com/juxxon23/SAC.git" class="button button--ghost" target="_blank">Code</a>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/saclogolight.png" alt="SAC back end" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#Python</span>
+                        <span class="project__tag">#Flask</span>
+                        <span class="project__tag">#MongoDB</span>
+                    </div>
+                    <h2 class="card__title">SAC Back End</h2>
+                    <p class="card__text">Gestor de actas de reunión</p>
+                    <p class="card__text">Servidor del proyecto SAC, utiliza MongoDB en sus procesos de almacenamiento de actas.</p>
+                    <div class="buttons">
+                        <a href="https://github.com/juxxon23/SAC-Backend.git" class="button button--ghost" target="_blank">Code</a>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/treegenx.png" alt="TreeGenX Front End" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#HTML</span>
+                        <span class="project__tag">#CSS</span>
+                        <span class="project__tag">#JavaScript</span>
+                        <span class="project__tag">#React</span>
+                    </div>
+                    <h2 class="card__title">TreeGenX Front End</h2>
+                    <p class="card__text">Proyecto para la construcción de árboles genealógicos</p>
+                    <p class="card__text">Considero importante el apropiarse de la historia de nuestros ancestros, por lo que este proyecto está enfocado a proveer una forma fácil y simple de crear árboles genealógicos donde además de conectar tu familia puedas almacenar datos relevantes que enriquezcan la historia personal de cada individuo.</p>
+                    <div class="buttons">
+                        <a href="https://github.com/juxxon23/Client-TreeGenX.git" class="button button--ghost" target="_blank">Code</a>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/treegenxdark.png" alt="TreeGenX Back End" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#JavaScript</span>
+                        <span class="project__tag">#Node.js</span>
+                        <span class="project__tag">#MongoDB</span>
+                    </div>
+                    <h2 class="card__title">TreeGenx Back End</h2>
+                    <p class="card__text">Proyecto para la construcción de árboles genealógicos</p>
+                    <p class="card__text">Servidor construido en Node.js, utiliza como almacenamiento MongoDB.</p>
+                    <div class="buttons">
+                        <a href="https://github.com/juxxon23/Server-TreeGenX.git" class="button button--ghost" target="_blank">Code</a>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/dr-health.jpg" alt="dr-health back end" class="card__image">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag">#Python</span>
+                        <span class="project__tag">#Flask</span>
+                        <span class="project__tag">#Cloudant</span>
+                        <span class="project__tag">#PostgreSQL</span>
+                    </div>
+                    <h2 class="card__title">Dr-Health Back End</h2>
+                    <p class="card__text">Proyecto para SENASoft</p>
+                    <p class="card__text">Este proyecto fue realizado en la competencia SENASoft, con participación de CISCO e IBM. Sistema dedicado a la gestión de procesos médicos; utiliza como base de datos principal IBM Cloudant y como respaldo local PostgreSQL.</p>
+                    <div class="buttons">
+                        <a href="https://github.com/juxxon23/dr-health.git" class="button button--ghost" target="_blank">Code</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
