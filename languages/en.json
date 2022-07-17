@@ -1,0 +1,31 @@
+{
+    "profile": {
+        "role": "Android and Web Developer",
+        "description": "Bachelor's student in Mathematics, enthusiast of programming, logic and arts, with a clear intention to learn and share my experience with the world.<br/> <em>Progress is in our hands.</em>"
+    },
+    "hobbies": {
+        "first_hobbie_title": "Draw/Paint",
+        "first_hobbie_description": "This hobby has been with me since childhood and represents my main form of expression and balance. I lean toward surrealism and figurative art. The game of logic and imagination stimulate my creative side.",
+        "second_hobbie_title": "Reading",
+        "second_hobbie_description": "Reading is food for the mind, whether they are popular science books, short stories or novels, a book is a companion that cannot be missed. One of my favorite genres is magical realism along with its great representative <em>Gabriel Garcia Marquez.</em>",
+        "third_hobbie_title": "Walk in nature",
+        "third_hobbie_description": "It is the ideal time for the internal primate to reconnect with its original habitat. It is also satisfying and enriching to contemplate the integral beauty of nature, in other words, nature is the primary source of inspiration."
+    },
+    "projects": {
+        "first_project_description": "Android app for managing personal tasks, lists created with RecyclerView.",
+        "second_project_description": "Basic calculator.",
+        "third_project_description": "It uses the Firebase Authentication service.",
+        "fourth_project_description": "This app uses a timer service to continue running in the background.",
+        "fifth_project_description": "Space to share my art, learning and various reflections.",
+        "sixth_project_subtitle": "Meeting document manager",
+        "sixth_project_description": "Project SAC Front End for the creation and management of documents aimed at following up on your meeting.",
+        "seventh_project_subtitle": "Meeting document manager",
+        "seventh_project_description": "Project SAC server, uses MongoDB in its document storage processes.",
+        "eighth_project_subtitle": "Project for the construction of family trees",
+        "eighth_project_description": "I consider it important to appropriate the history of our ancestors, so this project is focused on providing an easy and simple way to create family trees where, in addition to connecting your family, you can store relevant data that enriches the personal history of each individual.",
+        "ninth_project_subtitle": "Project for the construction of family trees",
+        "ninth_project_description": "Server built in Node.js, uses MongoDB as storage.",
+        "tenth_project_subtitle": "Project for SENASoft",
+        "tenth_project_description": "This project was carried out in the SENASoft competition, with the participation of CISCO and IBM. System dedicated to the management of medical processes; uses IBM Cloudant as the main database and PostgreSQL as local backup."
+    }
+}

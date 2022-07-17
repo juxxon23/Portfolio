@@ -1,0 +1,31 @@
+{
+    "profile": {
+        "role": "Desarrollador Web y Android",
+        "description": "Estudiante de licenciatura en matemáticas, entusiasta de la programación, la lógica y las artes, con una clara intención de aprender y compartir mi experiencia con el mundo.<br/> <em>El progreso está en nuestras manos.</em>"
+    },
+    "hobbies": {
+        "first_hobbie_title": "Dibujo/Pintura",
+        "first_hobbie_description": "Este pasatiempo me ha acompañado desde la infancia, representa mi principal medio de expresión y equilibrio. Me inclino más hacia el arte surrealista y figurativo, el juego de la lógica y la imaginación estimulan mi lado más creativo.",
+        "second_hobbie_title": "Leer",
+        "second_hobbie_description": "La lectura es el alimento de la mente, ya sean libros de divulgación científica, cuentos o novelas, un libro es un compañero que no puede faltar. Uno de mis géneros favoritos es el realismo mágico junto a su gran representante <em>Gabriel Garcia Marquez.</em>",
+        "third_hobbie_title": "Caminar en la naturaleza",
+        "third_hobbie_description": "Es el momento ideal para que el primate interno se reencuentre con su hábitat primigenio, además es satisfactorio y enriquecedor el contemplar la belleza integral de la naturaleza, en otras palabras, la naturaleza es la fuente primaria de inspiración."
+    },
+    "projects": {
+        "first_project_description": "Android app para la gestión de tareas personales, listas creadas con RecyclerView.",
+        "second_project_description": "Calculadora básica",
+        "third_project_description": "Utiliza el servicio de autenticación Firebase.",
+        "fourth_project_description": "Esta aplicación utiliza un servicio de cronómetro para continuar su ejecución en segundo plano.",
+        "fifth_project_description": "Espacio para compartir mi arte, aprendizaje y reflexiones varias.",
+        "sixth_project_subtitle": "Gestor de actas de reunión",
+        "sixth_project_description": "Front End del proyecto SAC para la creación y gestión de actas dirigidas a dar un seguimiento de tu reunión.",
+        "seventh_project_subtitle": "Gestor de actas de reunión",
+        "seventh_project_description": "Servidor del proyecto SAC, utiliza MongoDB en sus procesos de almacenamiento de actas.",
+        "eighth_project_subtitle": "Proyecto para la construcción de árboles genealógicos",
+        "eighth_project_description": "Considero importante el apropiarse de la historia de nuestros ancestros, por lo que este proyecto está enfocado a proveer una forma fácil y simple de crear árboles genealógicos donde además de conectar tu familia puedas almacenar datos relevantes que enriquezcan la historia personal de cada individuo.",
+        "ninth_project_subtitle": "Proyecto para la construcción de árboles genealógicos",
+        "ninth_project_description": "Servidor construido en Node.js, utiliza como almacenamiento MongoDB.",
+        "tenth_project_subtitle": "Proyecto para SENASoft",
+        "tenth_project_description": "Este proyecto fue realizado en la competencia SENASoft, con participación de CISCO e IBM. Sistema dedicado a la gestión de procesos médicos; utiliza como base de datos principal IBM Cloudant y como respaldo local PostgreSQL."
+    }
+}

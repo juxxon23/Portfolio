@@ -7,6 +7,23 @@ const toggleText = document.getElementById('toggle-text');
 const toggleColors = document.getElementById('toggle-colors');
 const rootStyles = document.documentElement.style;
 
+/* Language variables */
+const flagsElement = document.getElementById('flags');
+const textsToChange = document.querySelectorAll("[data-section]");
+
+const changeLanguage = async (language) => {
+    const requestJSON = await fetch(`./languages/${language}.json`);
+    const json = await requestJSON.json();
+
+    for (const texts of textsToChange ) {
+        const section = texts.dataset.section
+        const value = texts.dataset.value
+        texts.innerHTML = json[section][value]
+    }
+    
+};
+
+
 /* Change color theme */
 toggleTheme.addEventListener('click', () => {
     document.body.classList.toggle('dark')
@@ -32,8 +49,14 @@ toggleColors.addEventListener('click', (e) => {
     rootStyles.setProperty('--primary-color', e.target.dataset.color)
 })
 
+/* Language translator */
+flagsElement.addEventListener('click', (e) => {
+    changeLanguage(e.target.parentElement.dataset.language);
+})
 
-document.body.addEventListener("load", setColors)
+
+/* Set default colors */
+document.body.addEventListener('load', setColors)
 
 function setColors() {
     document.getElementById('green-color').style.display = "none";
